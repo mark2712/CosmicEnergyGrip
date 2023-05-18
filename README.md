@@ -16,7 +16,7 @@ dotnet new console --framework net7.0 --force
 dotnet new console --force  
 dotnet new winforms --force  
 
-Команды в терминале для легкой сборки приложения (\bin\Debug): 
+Команды в терминале для легкой сборки приложения (\bin\Debug):  
 dotnet run  
 dotnet build  
 
