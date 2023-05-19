@@ -15,16 +15,17 @@
 Для разработки использовался VS Code, язык C#  
 Так же нужен Download .NET 7.0  
 Установка через терминал:  
-dotnet new console --framework net7.0 --force  
-dotnet new console --force  
-dotnet new winforms --force  
+`dotnet new winforms --force`  
+Так же можно поробовать сначала через:  
+`dotnet new console --framework net7.0 --force` или `dotnet new console --force`  
+ 
 
 Команды в терминале для легкой сборки приложения (\bin\Debug):  
-dotnet run  
-dotnet build  
+`dotnet run`  
+`dotnet build`  
 
 Для универсальной сборки приложения под windows x64:  
-dotnet publish --runtime "win-x64" --configuration "Release"  
+`dotnet publish --runtime "win-x64" --configuration "Release"`  
+Так же можно попробовать собрать и под х32, хотя я не пробовал.  
 Готовое приложение будет находится в папке \bin\Release\net7.0-windows\win-x64  
 
-Так же можно собрать и под х32, хотя я не пробовал.
