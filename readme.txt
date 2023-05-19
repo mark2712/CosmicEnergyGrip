@@ -15,13 +15,14 @@ dotnet new console --framework net7.0 --force
 dotnet new console --force 
 dotnet new winforms --force
 
-Команды в терминале для легкой сборки приложения (\bin\Debug):
+Команды в терминале для легкой сборки приложения:
 dotnet run
 dotnet build
+Будет находится в папке \bin\Debug
 
 Для универсальной сборки приложения под windows x64:
 dotnet publish --runtime "win-x64" --configuration "Release"
-Готовое приложение будет находится в папке \bin\Release\net7.0-windows\win-x64\\publish
+Готовое приложение будет находится в папке \bin\Release\net7.0-windows\win-x64\publish
 
 Так же можно собрать и под х32, хотя я не пробовал.
 
