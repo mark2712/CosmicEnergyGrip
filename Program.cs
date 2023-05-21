@@ -10,6 +10,9 @@ public class Program
 
         Form1 form = new Form1();
         
+        Icon appIcon = new Icon("img/ico0.ico");
+        form.Icon = appIcon;
+        
         Application.Run(form);
     }
 }
